@@ -100,8 +100,6 @@ startButton.addEventListener("click", function startGame() {
 			alert(grantName + " WINS THE GAME!");
             let playAgain= window.confirm("Would you like to continue battling?" + "Click OK to attack or Cancel to retreat.");
             if (playAgain === true) { 
-                    (userHealth === 20);
-                    (grantHealth === 10);
 					startCombat();
 				} else {
 					exitCombat();
